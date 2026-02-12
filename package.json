@@ -1,0 +1,36 @@
+{
+  "name": "pdf_master",
+  "version": "1.0.0",
+  "description": "Use this overengineered AI agent to cut your pdfs exactly the way you want",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohannesRolshausen/PDF_Master.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JohannesRolshausen/PDF_Master/issues"
+  },
+  "homepage": "https://github.com/JohannesRolshausen/PDF_Master#readme",
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.24",
+    "@langchain/google-genai": "^2.1.18",
+    "@langchain/langgraph": "^1.1.4",
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "dotenv": "^17.2.4",
+    "pdf-lib": "^1.17.1"
+  }
+}
