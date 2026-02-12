@@ -2,6 +2,8 @@
 Use this overengineered AI agent to cut your pdfs exactly the way you want
 
 
+
+
 # Usage
 Be aware that you need a gemini API key for this to work.
 
@@ -23,3 +25,6 @@ E.g. for Cursor IDE add the following to your mcp.json:
   }
 }
 ```
+
+# Process
+![Sequence Diagram](Sequence-Diagram.png)
