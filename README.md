@@ -7,9 +7,12 @@ Use this overengineered AI agent to cut your pdfs exactly the way you want
 # Usage
 Be aware that you need a gemini API key for this to work.
 
-1. Build the program with
+1. Install dependencies with
+``` npm install```
+
+2. Build the program with
 ``` npm run build ```
-2. Connecting it to your MCP Client.
+3. Connecting it to your MCP Client.
 E.g. for Cursor IDE add the following to your mcp.json:
 
 ```bash
